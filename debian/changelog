@@ -1,5 +1,36 @@
-template-repository (1.0-1) unstable; urgency=medium
+openfec (1.4.2.12+dfsg-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 1.4.2.12+dfsg
+  * Update debian/copyright
+  * Standards-Version: 4.7.2 (no changes required)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Dylan Aïssi <daissi@debian.org>  Tue, 12 Aug 2025 09:37:33 +0200
+
+openfec (1.4.2.11+dfsg-1) unstable; urgency=medium
+
+  * New upstream version 1.4.2.11+dfsg
+  * Drop patch included in upstream release
+
+ -- Dylan Aïssi <daissi@debian.org>  Sun, 13 Oct 2024 14:19:14 +0200
+
+openfec (1.4.2.10+dfsg-1) unstable; urgency=medium
+
+  * New upstream version 1.4.2.10+dfsg
+  * Standards-Version: 4.7.0 (no changes required)
+  * Add debian/upstream/metadata
+  * Update Forwarded field for Fix_install_pkgconfig.patch
+
+ -- Dylan Aïssi <daissi@debian.org>  Thu, 08 Aug 2024 09:28:42 +0200
+
+openfec (1.4.2.9+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Dylan Aïssi <daissi@debian.org>  Sat, 13 Jan 2024 08:42:14 +0100
+
+openfec (1.4.2.9+dfsg-1) experimental; urgency=medium
+
+  * Initial release (Closes: #1002724)
+  * Add clarification from the LDPC's author about his license.
+
+ -- Dylan Aïssi <daissi@debian.org>  Fri, 15 Dec 2023 21:23:01 +0100
